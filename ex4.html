@@ -1,0 +1,41 @@
+ <!DOCTYPE html>
+<html>
+<head>
+
+	 <script>
+ 	 
+        function fun()
+           { var x=0;
+
+           if( document.getElementById("1").checked==true)
+                           {      x=x+80; } 
+           if(document.getElementById("2").checked==true)                   
+                            {    x=x+100;  }
+           if(document.getElementById("3").checked==true) 
+           	                {   x=x+200;  }
+           
+
+           	           document.write("the total is " + x.toString());
+/*           	if(x == 1)
+              {	document.bgColor="red";
+                x=0;
+               }
+            else
+               {
+               document.bgColor="green";
+               x=1;
+               }
+           } */
+           }
+          </script>
+</head>
+<body>
+	
+	<input type="radio" id="1">Pizza		80</input><br>
+	<input type="radio" id="2">Burger		100</input><br>
+	<input type="radio" id="3">Cheese		200</input><br>
+	<input type="button" onclick="fun()" value="click" >
+   
+
+</body>
+</html>

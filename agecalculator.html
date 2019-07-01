@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	 <script>
+ 	     
+        function fun()
+           { 
+       var l=new Date();
+       var date=parseInt(l.getDate());
+       var month=parseInt(l.getMonth())+1;
+       var year=parseInt(l.getFullYear());
+      var x=document.getElementById("1").value;
+      var y=x.split("/");
+      var age=year-parseInt(y[2]);
+         
+            document.getElementById("3").innerHTML=age;
+           }
+          </script>
+</head>
+<body>
+	<p>ENTER DOB(dd/mm/yyyy) <input type="text" id="1" > <input type="button" id="2" value="GETAGE" onclick="fun()"> </p>
+     <p id="3"> </p>
+</body>
+</html>

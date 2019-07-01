@@ -1,0 +1,49 @@
+<html>
+<head>
+</head>
+<body>
+
+
+  <form method="POST" action="form.aspx">
+      Name:<input type="text" maxlength="12" autofocus placeholder="Enter your name"></input><br>
+ <br>
+   <fieldset>
+   <legend> SEX </legend><br>
+      <label>  <input type="radio" name="sex" value="male"> MALE </input><br> </label>
+      <label> <input  type="radio" name="sex" value="female"> FEMALE </input> </label>
+</fieldset> <br>
+ <fieldset>
+
+ <legend> AGE <br></legend>
+
+  <select name="AGE">
+  	  <option>18  </option> <br>
+  	  <option>19  </option> <br>
+  	  <option>20  </option> <br>
+     
+  </select>
+  </fieldset><br>
+  <p> email: <input type="email" name="email" required placeholder="example:xxx@yy.zz"> </input> </p>
+  <p> telephone: <input type="tel" name="telephone" required  placeholder="example:2323237"> </input> </p>
+  <p> WebsiteAdd :<input type="URL" name="urlinput"  placeholder="example:http://www.xxx@yy.zz"> </input> </p>
+  <p> Mobile: <input type="number" name="number" required placeholder="example:2309382"> </input> </p>
+  <p> Interest in Job: <input type="Range" name="Range" required 42> </input> </p>
+  <p> Place:<input type="text" list="somelist" name="" placeholder="City"> </p>
+       <datalist id="somelist">
+       	       <option> Kozhikode </option>
+       	       <option> Trivandrum</option>
+               <option> Kannur</option>
+               <option> Eranakulam</option>
+               <option> Thrissur</option>   
+               <option> Palakkad</option>
+       </datalist>        
+  <input type="submit"  value="Finish"> </input>
+  <input type="reset" value="Reset"></input> 
+
+
+
+
+   </form>
+
+ </body>
+</head>
